@@ -35,9 +35,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex-1 container relative overflow-x-hidden">
+          <div className="flex-1 relative overflow-x-hidden">
             <Header />
-            <main className="bg-background container">
+            <main className="bg-background">
               {children}
             </main>
           </div>
