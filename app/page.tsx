@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 export default function Home() {
   return (
     <div className="flex flex-col gap-8">
-      <section className="relative w-full bg-background md:justify-between flex flex-col md:flex-row-reverse overflow-hidden md:h-[500px]">
+      <section className="container relative w-full bg-background md:justify-between flex flex-col md:flex-row-reverse overflow-hidden md:h-[500px]">
         <div className="hero relative bg-[url(/bg-intro-mobile.svg)] md:bg-[url(/bg-intro-desktop.svg)] bg-cover bg-no-repeat h-80 w-full md:h-full lg:bg-[position:right_top_80%]">
           <Image src={qwe} alt="Mockup aestethic" className="w-full max-w-[400px] max-md:-top-20 left-1/2 max-md:-translate-x-1/2  md:scale-150 md:left-auto md:right-0 absolute" />
         </div>

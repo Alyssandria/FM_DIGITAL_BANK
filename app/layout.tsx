@@ -35,7 +35,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex-1 relative overflow-x-hidden">
+          <div className="flex-1 relative space-y-4 overflow-x-hidden">
             <Header />
             <main className="bg-background">
               {children}
