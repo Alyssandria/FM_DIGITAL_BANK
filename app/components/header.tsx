@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils"
 
 export const Header = ({ className, ...props }: ComponentPropsWithoutRef<"header">) => {
   return (
-    <header className={cn("h-12 flex items-center w-full", className)} {...props}>
+    <header className={cn("relative z-20 p-6 lg:h-16 flex items-center w-full bg-background", className)} {...props}>
       <nav className="flex items-center justify-between gap-6 w-full">
         <Link href={"/"} className="block w-44">
           <Logo />

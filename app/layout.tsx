@@ -27,7 +27,7 @@ export default function RootLayout({
     >
       <head />
       <body
-        className={`${publicSans.className} antialiased`}
+        className={`${publicSans.className} min-h-screen flex flex-col antialiased`}
       >
         <ThemeProvider
           attribute="class"
@@ -35,9 +35,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="container">
+          <div className="flex-1 container relative overflow-x-hidden">
             <Header />
-            <main className="min-h-[calc(100vh-(54px+(45px*2)+252px))]">
+            <main className="bg-background container">
               {children}
             </main>
           </div>

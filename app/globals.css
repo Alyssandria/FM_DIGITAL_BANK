@@ -131,8 +131,9 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground overflow-x-hidden;
   }
@@ -140,6 +141,6 @@
 
 @layer components {
   .container {
-    @apply p-6 md:p-10 max-w-[1440px] m-auto;
+    @apply max-w-[1440px] mx-auto;
   }
 }

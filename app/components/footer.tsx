@@ -7,7 +7,7 @@ import { NavLink } from "./ui/link";
 
 export const Footer = ({ className, ...props }: ComponentPropsWithoutRef<"footer">) => {
   return (
-    <footer className={cn("max-lg:py-6 lg:h-56 flex items-center w-full bg-primary-blue-950", className)} {...props}>
+    <footer className={cn("p-6 py-14 flex items-center w-full bg-primary-blue-950", className)} {...props}>
       <div className="container flex flex-col gap-6 items-center justify-center lg:flex-row lg:justify-between">
         <div className="flex flex-col gap-6 lg:flex-row lg:gap-12 lg:justify-between lg:flex-1">
           <div className="flex items-center justify-between flex-col gap-6 lg:flex-1 lg:items-start">

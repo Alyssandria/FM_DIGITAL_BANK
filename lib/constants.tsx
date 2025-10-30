@@ -37,6 +37,13 @@ export const NAV = [
   },
 ];
 
+export const MAIN = {
+  HERO: {
+    TAGLINE: "Next generation digital banking",
+    SUBTITLE: "Take your financial life online. Your Digitalbank account will be a one -stop-shop for spending, saving, budgetingg, investing and much more."
+  }
+}
+
 export const FOOTER = {
   SOCIALS: [
     {
