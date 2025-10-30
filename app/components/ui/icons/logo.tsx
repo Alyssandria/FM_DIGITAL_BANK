@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils"
 import { ComponentPropsWithoutRef } from "react"
 
-export const LogoDark = ({ className, ...props }: ComponentPropsWithoutRef<"svg">) => (
+export const Logo = ({ className, ...props }: ComponentPropsWithoutRef<"svg">) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 153 21"

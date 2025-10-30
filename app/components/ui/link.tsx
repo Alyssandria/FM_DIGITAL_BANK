@@ -3,7 +3,7 @@ import Link from "next/link";
 import { cva, VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
-const linkVariants = cva("text-center inline-flex p-4 items-center justify-center", {
+const linkVariants = cva("text-left inline-flex items-center justify-center", {
   variants: {
     variant: {
       default: "bg",
