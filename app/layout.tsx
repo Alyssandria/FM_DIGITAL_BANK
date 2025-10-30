@@ -5,6 +5,9 @@ import { LogoDark } from "./components/ui/logo";
 import { ThemeProvider } from "./components/theme-provider";
 import Link from "next/link";
 import { MobileNav } from "./components/mobile-nav";
+import { NavLinks } from "./components/nav-links";
+import { Button } from "@/components/ui/button";
+import { NavLink } from "./components/ui/link";
 
 const publicSans = Public_Sans({
   variable: "--font-public-sans",
@@ -36,13 +39,15 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="p-6">
+          <div className="p-6 md:p-10 max-w-[1899px] m-auto">
             <header className="py-6">
               <nav className="flex items-center justify-between gap-6">
                 <Link href={"/"} className="block w-44">
                   <LogoDark />
                 </Link>
                 <MobileNav />
+                <NavLinks className="hidden md:flex md:flex-row md:[&>li>a]:text-sm md:gap-8 xl:m-auto md:[&>li>a]:text-neutral-gray-600" />
+                <NavLink href={"/"} className="max-xl:hidden text-white" variant={"pill"}>Request an Invite</NavLink>
               </nav>
             </header>
             {children}

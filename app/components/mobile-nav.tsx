@@ -15,7 +15,7 @@ export const MobileNav = () => {
   return (
     <Dialog open={open} onOpenChange={setIsOpen}>
       <DialogTrigger>
-        <Menu className="block size-8 lg:hidden" />
+        <Menu className="block size-8 md:hidden" />
       </DialogTrigger>
       <DialogContent className="top-72">
         <DialogHeader>

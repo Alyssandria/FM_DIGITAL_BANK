@@ -4,7 +4,7 @@ import Link from "next/link"
 import { ComponentPropsWithoutRef } from "react"
 
 type NavLinks = {
-  onListClick: () => void,
+  onListClick?: () => void,
 } & ComponentPropsWithoutRef<"ul">
 export const NavLinks = ({ onListClick, className, ...props }: NavLinks) => {
   return (
