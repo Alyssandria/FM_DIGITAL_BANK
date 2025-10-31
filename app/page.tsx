@@ -40,11 +40,11 @@ export default function Home() {
       <section className="bg-neutral-gray-50 dark:bg-background py-12 md:py-20">
         <div className="container flex  flex-col gap-16 p-6">
           <h2 className="text-primary-blue-950 font-medium text-3xl text-center md:text-left dark:text-white">{MAIN.ARTICLES.TAGLINE}</h2>
-          <div className="flex flex-col gap-6 md:flex-row">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {MAIN.ARTICLES.CARDS.map((el, i) => (
               <NavLink href="/" key={i} className={cn("group flex flex-col bg-white rounded-md dark:bg-neutral-gray-50", el.CLASSNAME)}>
                 <div className="rounded-md overflow-hidden size-full">
-                  <Image src={el.IMAGE} width={300} height={300} alt="Article Thumbnail" className="transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:blur-[1px] size-full object-center" />
+                  <Image src={el.IMAGE} width={300} height={300} alt="Article Thumbnail" className="max-h-[250px] transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:blur-[1px] size-full object-center object-cover" />
                 </div>
                 <div className="p-7 flex flex-col gap-4">
                   <span className="block text-xs text-neutral-gray-600 md:text-xs">{`By ${el.AUTHOR}`}</span>
