@@ -46,7 +46,6 @@ export const MAIN = {
     TAGLINE: "Next generation digital banking",
     SUBTITLE: "Take your financial life online. Your Digitalbank account will be a one -stop-shop for spending, saving, budgetingg, investing and much more."
   },
-
   MARKETING: {
     TAGLINE: " Why choose Digitalbank?",
     SUBTITLE: "We leverage Open Banking to turn your bank account into your financial hub.Control your finances like never before. ",
@@ -82,6 +81,43 @@ export const MAIN = {
         CLASSNAME: "",
         CONTENT: "Manage your savings, investments, pension, and much more from one account.Tracking your money has never been easier."
       }
+    ]
+  },
+
+  ARTICLES: {
+    TAGLINE: "Latest Articles",
+    CARDS: [
+      {
+        AUTHOR: "Claire Robinson",
+        IMAGE: "/image-currency.jpg",
+        CLASSNAME: "",
+        CONTENT: "The world is getting smaller and we’re becoming more mobile.So why should you be forced to only receive money in a single …",
+        TITLE: "Receive money in any currency with no fees",
+      },
+
+      {
+        AUTHOR: "Wilson Hutton",
+        IMAGE: "/image-restaurant.jpg",
+        CLASSNAME: "",
+        TITLE: "Treat yourself without worrying about money",
+        CONTENT: "Our simple budgeting feature allows you to separate out your spending and set realistic limits each month.That means you …",
+      },
+
+      {
+        AUTHOR: "Wilson Hutton",
+        IMAGE: "/image-plane.jpg",
+        CLASSNAME: "",
+        TITLE: "Take your Digitalbank card wherever you go",
+        CONTENT: "We want you to enjoy your travels.This is why we don’t charge any fees on purchases while you’re abroad.We’ll even show you …",
+      },
+
+      {
+        AUTHOR: "Claire Robinson",
+        IMAGE: "/image-confetti.jpg",
+        CLASSNAME: "",
+        TITLE: "Our invite- only Beta accounts are now live!",
+        CONTENT: "After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through the site ...",
+      },
     ]
   }
 }

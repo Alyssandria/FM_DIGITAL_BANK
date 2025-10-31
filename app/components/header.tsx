@@ -15,7 +15,7 @@ export const Header = ({ className, ...props }: ComponentPropsWithoutRef<"header
         </Link>
         <MobileNav />
         <NavLinks className="hidden md:flex md:flex-row md:[&>li>a]:text-sm md:gap-8 xl:m-auto md:[&>li>a]:text-neutral-gray-600" />
-        <NavLink href={"/"} className="max-xl:hidden text-white" variant={"pill"}>Request an Invite</NavLink>
+        <NavLink href={"/"} className="max-xl:hidden text-white transition-all hover:translate-y-1" variant={"pill"}>Request an Invite</NavLink>
       </nav>
     </header>
   )
